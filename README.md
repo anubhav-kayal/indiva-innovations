@@ -1,16 +1,44 @@
-# React + Vite
+# Indiva Innovations - Commercial Cooling Solutions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, single-page application (SPA) landing page designed to drive B2B and bulk orders for Indiva Innovations' flagship commercial cooler, the Storm 5000. 
 
-Currently, two official plugins are available:
+Live Demo: [Insert Vercel Link Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+This landing page was developed to transition Indiva Innovations into a pan-India supplier. The UI is built with a focus on maximizing conversion rates (phone calls and emails) from event organizers, tent house owners, and B2B clients. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Key features include:
+- **Bento-Box UI Design:** Modern, asymmetrical feature highlighting.
+- **Micro-Interactions:** Smooth scroll animations and hover states powered by Framer Motion.
+- **Mobile-First Optimization:** Carefully structured to look incredible on mobile devices, where the majority of B2B client traffic originates.
+- **Sticky Actions:** Floating WhatsApp and quick-call buttons for immediate conversion.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework:** [React 18](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+
+## 📂 Project Structure
+
+The project utilizes a modular component architecture to ensure maintainability:
+
+```text
+src/
+├── assets/            # Static images and logo
+├── components/        # Modular UI components
+│   ├── Navbar.jsx     # Glassmorphism navigation
+│   ├── Hero.jsx       # High-impact hero section
+│   ├── Spotlight.jsx  # Bento-box product breakdown
+│   ├── Applications.jsx# Usage gallery
+│   ├── Specs.jsx      # Technical specifications table
+│   ├── Factory.jsx    # Manufacturing & Pan-India focus
+│   ├── FAQ.jsx        # B2B common questions
+│   ├── Footer.jsx     # Main footer
+│   └── FloatingContact.jsx # Sticky conversion buttons
+├── App.jsx            # Main layout assembler
+├── index.css          # Tailwind entry point
+└── main.jsx           # React DOM rendering
