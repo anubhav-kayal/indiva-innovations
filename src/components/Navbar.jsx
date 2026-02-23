@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between">
         
         <div className="flex items-center gap-2">
-          <img src="/assets/logo.png" alt="Indiva Innovations" className="h-8 md:h-10 w-auto" />
+          <img src="/assets/logo.svg" alt="Indiva Innovations" className="h-8 md:h-10 w-auto" />
         </div>
 
         {/* Desktop Menu */}
