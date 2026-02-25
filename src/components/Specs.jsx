@@ -6,7 +6,7 @@ export default function Specs() {
   const specifications = [
     { label: "Motor Speed & Power", value: "900 RPM | 550 Watts", icon: Zap },
     { label: "Water Pump", value: "40 Watt (Uniflow Brand)", icon: Droplets },
-    { label: "Tank Capacity", value: "100 Litre / 150 Litre / 200 Litre", icon: Shield },
+    { label: "Tank Capacity", value: "110 Litre / 150 Litre / 200 Litre", icon: Shield },
     { label: "Cooling Media", value: "High-Density Honeycomb Pads", icon: Wind },
   ];
 

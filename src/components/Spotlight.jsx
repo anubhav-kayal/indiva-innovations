@@ -27,7 +27,7 @@ export default function Spotlight() {
           {/* Feature Cards */}
           <motion.div className="bg-blue-50/50 border border-blue-100 rounded-3xl p-6 md:p-8 hover:bg-blue-50 transition-colors" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}>
             <div className="w-10 h-10 md:w-12 md:h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center mb-4 md:mb-6 shadow-lg shadow-blue-600/30"><Wind size={20} className="md:w-6 md:h-6" /></div>
-            <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2 md:mb-3">50+ Feet Air Throw</h3>
+            <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2 md:mb-3">100+ Feet Air Throw</h3>
             <p className="text-slate-600 text-sm leading-relaxed">A massive 900 RPM motor ensures high-velocity cool air reaches the very back of the venue.</p>
           </motion.div>
 
