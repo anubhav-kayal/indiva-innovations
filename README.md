@@ -1,44 +1,57 @@
 # Indiva Innovations - Commercial Cooling Solutions
 
-A high-performance, single-page application (SPA) landing page designed to drive B2B and bulk orders for Indiva Innovations' flagship commercial cooler, the Storm 5000. 
+A high-performance, modern landing page for Indiva Innovations' flagship commercial cooler, the Storm 5000.
 
-Live Demo: [Insert Vercel Link Here]
+## Features
 
-## 🚀 Project Overview
+- 🌗 **Dark/Light Mode** - Toggleable theme with smooth CSS transitions and persistence via localStorage
+- 🌐 **Hindi/English Toggle** - Full i18n with complete Hindi translations, including tech specs
+- 📱 **Fully Responsive** - Pixel-perfect across mobile, tablet, and desktop
+- 🎬 **Smooth Animations** - Framer Motion powered scroll-reveal, counters, and page transitions
+- 🖼️ **Product Gallery** - Interactive lightbox gallery with keyboard navigation
+- 💬 **Contact Modal** - Animated inquiry form with loading state and success feedback
+- ⭐ **Client Testimonials** - Carousel with ratings
+- 📊 **Animated Stats Counter** - Intersection-observed number counters
+- 🔍 **FAQ with Search** - Filterable accordion FAQ section
+- 🎯 **Back to Top** - Floating scroll-to-top button
+- 📞 **Floating Contact** - WhatsApp, call, and contact form buttons
+- ⚡ **Performance Optimized** - Built with Vite, lazy animations, minimal re-renders
 
-This landing page was developed to transition Indiva Innovations into a pan-India supplier. The UI is built with a focus on maximizing conversion rates (phone calls and emails) from event organizers, tent house owners, and B2B clients. 
+## Tech Stack
 
-Key features include:
-- **Bento-Box UI Design:** Modern, asymmetrical feature highlighting.
-- **Micro-Interactions:** Smooth scroll animations and hover states powered by Framer Motion.
-- **Mobile-First Optimization:** Carefully structured to look incredible on mobile devices, where the majority of B2B client traffic originates.
-- **Sticky Actions:** Floating WhatsApp and quick-call buttons for immediate conversion.
+- **Framework:** React 19
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
 
-## 🛠️ Tech Stack
+## Sections
 
-- **Framework:** [React 18](https://react.dev/)
-- **Build Tool:** [Vite](https://vitejs.dev/)
-- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
-- **Animations:** [Framer Motion](https://www.framer.com/motion/)
-- **Icons:** [Lucide React](https://lucide.dev/)
+| Section | Description |
+|---------|-------------|
+| Navbar   | Glassmorphism nav with theme/lang toggles |
+| Hero     | High-impact hero with product image |
+| Spotlight| Bento-box product breakdown |
+| Stats    | Animated company statistics |
+| Applications | Use-case gallery |
+| Specs    | Technical specifications table |
+| Gallery  | Interactive product image lightbox |
+| Testimonials | Client reviews carousel |
+| Factory  | Manufacturing & Pan-India focus |
+| FAQ      | Searchable accordion Q&A |
+| Footer   | Links, contact, social icons |
+| Floating | WhatsApp, call, and contact form CTAs |
 
-## 📂 Project Structure
+## Getting Started
 
-The project utilizes a modular component architecture to ensure maintainability:
+```bash
+npm install
+npm run dev
+```
 
-```text
-src/
-├── assets/            # Static images and logo
-├── components/        # Modular UI components
-│   ├── Navbar.jsx     # Glassmorphism navigation
-│   ├── Hero.jsx       # High-impact hero section
-│   ├── Spotlight.jsx  # Bento-box product breakdown
-│   ├── Applications.jsx# Usage gallery
-│   ├── Specs.jsx      # Technical specifications table
-│   ├── Factory.jsx    # Manufacturing & Pan-India focus
-│   ├── FAQ.jsx        # B2B common questions
-│   ├── Footer.jsx     # Main footer
-│   └── FloatingContact.jsx # Sticky conversion buttons
-├── App.jsx            # Main layout assembler
-├── index.css          # Tailwind entry point
-└── main.jsx           # React DOM rendering
+## Build
+
+```bash
+npm run build
+npm run preview
+```
