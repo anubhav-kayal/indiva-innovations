@@ -18,7 +18,7 @@ export default function App() {
   const [contactOpen, setContactOpen] = useState(false);
 
   return (
-    <div className="font-sans overflow-x-hidden selection:bg-orange-200 dark:selection:bg-orange-500/30 selection:text-orange-900 dark:selection:text-orange-200 min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-300">
+    <div className="overflow-x-hidden selection:bg-orange-200 dark:selection:bg-orange-500/30 selection:text-orange-900 dark:selection:text-orange-200 min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-300">
       <Navbar />
       <main>
         <Hero onContactOpen={() => setContactOpen(true)} />

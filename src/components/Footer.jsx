@@ -13,9 +13,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16 mb-12 md:mb-16">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-700 rounded-xl flex items-center justify-center">
-                <span className="text-white font-black text-lg">II</span>
-              </div>
+              <img
+                src="/assets/logo.svg"
+                alt="Indiva Innovations"
+                className="h-10 w-auto object-contain transition-[filter] dark:invert"
+              />
               <span className="font-bold text-xl text-slate-900 dark:text-white">Indiva</span>
             </div>
             <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed max-w-xs">

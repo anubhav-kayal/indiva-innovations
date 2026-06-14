@@ -22,12 +22,13 @@ export default function Navbar() {
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="flex items-center gap-2"
+          className="flex items-center"
         >
-          <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-orange-700 rounded-lg flex items-center justify-center">
-            <span className="text-white font-black text-sm">II</span>
-          </div>
-          <span className="font-bold text-lg text-slate-900 dark:text-white">Indiva</span>
+          <img
+            src="/assets/logo.svg"
+            alt="Indiva Innovations"
+            className="h-12 md:h-14 w-auto object-contain transition-[filter] dark:invert"
+          />
         </motion.div>
 
         <div className="hidden md:flex items-center gap-8">

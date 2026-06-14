@@ -15,7 +15,7 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        sans: ['Sora', 'system-ui', '-apple-system', 'sans-serif'],
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',
